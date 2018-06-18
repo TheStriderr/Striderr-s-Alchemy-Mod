@@ -36,6 +36,201 @@ namespace StriderrsAlchemyMod.Items
           recipe.AddRecipe();
 
           recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "JunkMatter", 1);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.DirtBlock);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "JunkMatter", 1);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.MudBlock);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "JunkMatter", 5);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.StoneBlock);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "JunkMatter", 6);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.MudstoneBlock);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "JunkMatter", 10);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.GraniteBlock);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "JunkMatter", 10);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.MarbleBlock);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "JunkMatter", 25);
+          recipe.AddIngredient(null, "Mk2Matter", 1);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.EbonstoneBlock);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "JunkMatter", 25);
+          recipe.AddIngredient(null, "Mk2Matter", 1);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.CrimstoneBlock);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "JunkMatter", 25);
+          recipe.AddIngredient(null, "LightMatter", 1);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.PearlstoneBlock);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "JunkMatter", 1);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.SandBlock);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "JunkMatter", 5);
+          recipe.AddIngredient(null, "Mk2Matter", 1);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.EbonsandBlock);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "JunkMatter", 5);
+          recipe.AddIngredient(null, "Mk2Matter", 1);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.CrimsandBlock);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "JunkMatter", 5);
+          recipe.AddIngredient(null, "LightMatter", 1);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.PearlsandBlock);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "JunkMatter", 5);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.Sandstone);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "JunkMatter", 25);
+          recipe.AddIngredient(null, "Mk2Matter", 1);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.CorruptSandstone);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "JunkMatter", 25);
+          recipe.AddIngredient(null, "Mk2Matter", 1);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.CrimsonSandstone);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "JunkMatter", 25);
+          recipe.AddIngredient(null, "LightMatter", 1);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.HallowSandstone);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "JunkMatter", 5);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.HardenedSand);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "JunkMatter", 25);
+          recipe.AddIngredient(null, "Mk2Matter", 1);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.CorruptHardenedSand);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "JunkMatter", 25);
+          recipe.AddIngredient(null, "Mk2Matter", 1);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.CrimsonHardenedSand);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "JunkMatter", 5);
+          recipe.AddIngredient(null, "LightMatter", 1);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.HallowHardenedSand);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "JunkMatter", 35);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.ClayBlock);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "JunkMatter", 5);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.AshBlock);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "JunkMatter", 5);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.SiltBlock);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "JunkMatter", 2);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.SnowBlock);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "JunkMatter", 10);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.IceBlock);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "JunkMatter", 25);
+          recipe.AddIngredient(null, "Mk2Matter", 1);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.PurpleIceBlock);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "JunkMatter", 25);
+          recipe.AddIngredient(null, "Mk2Matter", 1);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.RedIceBlock);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "JunkMatter", 25);
+          recipe.AddIngredient(null, "LightMatter", 1);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.PinkIceBlock);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "JunkMatter", 1);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.SlushBlock);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
           recipe.AddIngredient(null, "BasicMatter", 5);
           recipe.AddTile(null, "AlchBench");
           recipe.SetResult(ItemID.Wood);
