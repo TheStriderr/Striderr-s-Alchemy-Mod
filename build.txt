@@ -1,0 +1,3 @@
+author = Striderr
+version = 0.1
+displayName = Striderr's Alchemy Mod
